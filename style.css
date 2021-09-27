@@ -196,7 +196,7 @@ footer a {
 .work-item-project.group-project1 {
   grid-column: 2 / span 1;
   grid-row: 7 / span 3; 
-  background-image: ;
+  background-image: url("/Users/aylarangel/Documents/Professional-Portfolio/assets/images/ferias.png");
   background-size: cover;
   display: flex; 
   align-items: flex-end; 

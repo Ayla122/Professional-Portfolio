@@ -71,10 +71,10 @@
                     </span>
                 </div>
             
-                <div onclick="projectClicked('group-project1')" alt="FéRIAS landing page" title="FéRIAS landing page" style="cursor: pointer;" class="work-item-project group-project1">
+                <div onclick="projectClicked('group-project1')" alt="FéRIAS landing page" title="FéRIAS landing page" target="_blank" style="cursor: pointer;" class="work-item-project group-project1">
                     <span class="span-background">
-                        <h3>Coming soon</h3>
-                        <span class="lower-text">TBD 1</span>
+                        <h3>FéRIAS</h3>
+                        <span class="lower-text">group project 1</span>
                     </span>
                 </div>
 
@@ -140,7 +140,12 @@
                 window.open("https://ayla122.github.io/coderefactor/");
             }  
         };
-            
+        function projectClicked(input) { 
+            var input = input; 
+            if (input == "group-project1") { 
+                window.open("https://ayla122.github.io/coderefactor/");
+            }  
+        };   
     </script>
 </body>
 </html>
