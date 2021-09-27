@@ -193,10 +193,10 @@ footer a {
   border: .25vw solid var(--pink);
 }
 
-.work-item-project.TBD-1 {
+.work-item-project.group-project1 {
   grid-column: 2 / span 1;
   grid-row: 7 / span 3; 
-  background-image: var(--tbd-image);
+  background-image: images/Screen Shot 2021-09-26 at 7.42.19 PM.png;
   background-size: cover;
   display: flex; 
   align-items: flex-end; 
