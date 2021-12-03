@@ -7,10 +7,7 @@
 
 /*  var */
 :root {
-  --blue: #66ace6;
-  --dark-purple: #463e52;
-  --pink: rgb(255, 192, 192);
-  --cream: #FFFDD0;
+  --grey: #d3d3d3;
   --tbd-image: url("https://www.wholesaleforeveryone.com/mm5/graphics/00000001/products/BN/BNSS0100/BNSS0100_22_0283_0001.jpg");
 }
 
@@ -24,7 +21,9 @@ header {
   justify-content: space-between;
   flex-wrap: wrap;
   list-style: none;
-  background-color: var(--blue); 
+  background-color: #000; 
+  position: fixed;
+  width: 100%;
 }
 
 header h1 {
@@ -52,57 +51,43 @@ header a {
   padding-right: 10px;
   padding-bottom: 5px;
   text-decoration: none;
-  border-bottom: 2px solid var(--pink);
-  color: var(--cream);
+  
+  color: var(--grey);
 }
 
 /* Body Code */
 body{
-  background-color: var(--cream); 
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: var(--grey); 
+  font-family:"helvetica";
 }
 
-/* Footer code */
-footer {
-  background-color: var(--blue); 
-  color: var(--cream); 
-}
+/* Footer code  */
 
 footer a {
   text-decoration: none;
-  border-bottom: 2px solid var(--pink); 
-  color: var(--cream); 
+  color: rgb(65, 65, 65);
   font-size: 1.8vw; 
-  font-weight: bold;
+  font-family:"helvetica";
 }
-
 /* Header hover */
 .nav-effects a:hover{ 
-  color: var(--pink);
-  font-weight: bold;
+  color:whitesmoke;
   text-shadow: 0px 0px 20px var(--dark-purple);
 }
 
 /* Work hover */
 .work-grid-container div:hover{ 
-  mix-blend-mode:exclusion;
+  mix-blend-mode:screen;
 }
 
-/* Footer hover */
-.footer-container a:hover{
-  color: var(--pink);
-  font-weight: bold;
-  text-shadow: 0px 0px 20px var(--dark-purple);
-}
+
 
 /*hero section */
 .hero { 
   height: 300px;
-  background-image: url("https://emilyjanesimkins.files.wordpress.com/2014/01/floral-header.png");
-  border-bottom-left-radius: 30px 30px; 
-  border-bottom-right-radius: 30px 30px;
+  background-image: url("https://www.nvholden.com/wp-content/uploads/2019/05/Landscapes_Nvholden_Photography_Drive_Over_The_St_Johns_Bridge_Portland_Oregon.jpg");
   background-size: cover; 
-  background-position:  100% 13%; 
+  background-position:  100% 100%; 
   background-attachment: fixed; 
   display: flex;
   justify-content: flex-end;
@@ -117,12 +102,21 @@ footer a {
 }
 
 /* About Me*/
+
+#about-me {
+  background-color: white;
+  padding: 50px;
+  box-shadow: 0px 0px 5px 0px #888888;
+}
 .about-me-wrapper { 
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   justify-content: center;
   margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
 }
 
 .about-me-grid-container {
@@ -138,7 +132,7 @@ footer a {
   grid-row: 1 / span 4;
   padding-right: 10px;
   text-align: right;
-  border-right: 2px solid var(--pink);
+  border-right: 2px solid #000;
 }
 
 .about-me-item.p1 {
@@ -155,12 +149,22 @@ footer a {
 
 
 /* Work */
+#work {
+  background-color: white;
+  padding: 50px;
+  box-shadow: 0px 0px 5px 0px #888888;
+}
+
 .work-wrapper { 
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   justify-content: center;
   margin-top: 50px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
 
 }
 .work-grid-container {
@@ -177,7 +181,7 @@ footer a {
   grid-row: 1 / span 9;
   text-align: right;
   padding-right: 10px;
-  border-right: 2px solid var(--pink);
+  border-right: 2px solid #000;
 }
 
 .work-item-project.challenge-1-refactor {
@@ -190,7 +194,7 @@ footer a {
   padding-left: 0px;
   padding-bottom: 15px;
   text-align: left;
-  border: .25vw solid var(--pink);
+  border: .25vw solid var(--grey);
 }
 
 .work-item-project.group-project1 {
@@ -203,7 +207,7 @@ footer a {
   padding-left: 0px;
   padding-bottom: 15px;
   text-align: left;
-  border: .25vw solid var(--pink);
+  border: .25vw solid var(--grey);
 }
 
 .work-item-project.group-project-2 {
@@ -216,7 +220,7 @@ footer a {
   padding-left: 0px;
   padding-bottom: 15px;
   text-align: left;
-  border: .25vw solid var(--pink);
+  border: .25vw solid var(--grey);
 }
 
 .work-item-project.TBD-3 {
@@ -229,7 +233,7 @@ footer a {
   padding-left: 0px;
   padding-bottom: 15px;
   text-align: left;
-  border: .25vw solid var(--pink);
+  border: .25vw solid var(--grey);
 }
 
 .work-item-project.TBD-4 {
@@ -242,7 +246,7 @@ footer a {
   padding-left: 0px;
   padding-bottom: 15px;
   text-align: left;
-  border: .25vw solid var(--pink);
+  border: .25vw solid var(--grey);
 }
 
 .work-item-project.TBD-5 {
@@ -255,12 +259,12 @@ footer a {
   padding-left: 0px;
   padding-bottom: 15px;
   text-align: left;
-  border: .25vw solid var(--pink);
+  border: .25vw solid var(--grey);
 }
 
 /* span */
 .span-background { 
-  background-color: var(--pink);
+  background-color: var(--grey);
   position: relative;
   line-height: 1.5;
   padding-left: 8px;
@@ -291,7 +295,12 @@ footer a {
   justify-content: center;
   margin-top: 50px;
 }
+/* Footer hover */
+.footer-container a:hover{
+  border-bottom: 2px solid #000;
+  color: #000; 
 
+}
 .footer-container { /* CSS Grid */
   width: 80%;
   display: grid;
@@ -311,7 +320,7 @@ footer a {
   grid-row: 1 / span 3;
   text-align: right;
   padding-right: 10px;
-  border-right: 2px solid var(--pink);
+  border-right: 2px solid;
 }
 
 .footer-grid-item.phone{
@@ -371,7 +380,7 @@ footer a {
     padding-right: 0px;
     padding-bottom: 0px;
     border-right: none;
-    border-bottom: 2px solid var(--pink);
+    border-bottom: 2px solid var(--grey);
   }
 
   .about-me-item.p1 {
@@ -387,7 +396,9 @@ footer a {
     padding-bottom: 10px;
   }
   
-  
+  .square {
+    background-color: white
+  }
 
   .footer-wrapper {
     margin-top: 20px;
@@ -408,7 +419,7 @@ footer a {
     padding-right: 0px;
     padding-bottom: 0px;
     border-right: none;
-    border-bottom: 2px solid var(--pink);
+    border-bottom: 2px solid var(--grey);
     padding-left: 25px;
   }
 
@@ -472,7 +483,7 @@ footer a {
     padding-right: 0px;
     padding-bottom: 0px;
     border-right: none;
-    border-bottom: 2px solid var(--pink);
+    border-bottom: 2px solid var(--grey);
     align-self: start;
   }
 
@@ -502,7 +513,7 @@ footer a {
     padding-top: 0px;
     padding-right: 0px;
     padding-bottom: 0px;
-    border-bottom: 2px solid var(--pink);
+    border-bottom: 2px solid var(--grey);
     border-right: none;
     align-self: start;
   }
