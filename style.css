@@ -21,8 +21,7 @@ header {
   justify-content: space-between;
   flex-wrap: wrap;
   list-style: none;
-  background-color: #000; 
-  position: fixed;
+  background-color: #000;
   width: 100%;
 }
 
@@ -51,7 +50,6 @@ header a {
   padding-right: 10px;
   padding-bottom: 5px;
   text-decoration: none;
-  
   color: var(--grey);
 }
 
@@ -72,7 +70,6 @@ footer a {
 /* Header hover */
 .nav-effects a:hover{ 
   color:whitesmoke;
-  text-shadow: 0px 0px 20px var(--dark-purple);
 }
 
 /* Work hover */
@@ -132,7 +129,6 @@ footer a {
   grid-row: 1 / span 4;
   padding-right: 10px;
   text-align: right;
-  border-right: 2px solid #000;
 }
 
 .about-me-item.p1 {
@@ -161,7 +157,7 @@ footer a {
   justify-content: space-between;
   justify-content: center;
   margin-top: 50px;
-  margin-top: 50px;
+  margin-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
   width: 80%;
@@ -181,7 +177,7 @@ footer a {
   grid-row: 1 / span 9;
   text-align: right;
   padding-right: 10px;
-  border-right: 2px solid #000;
+
 }
 
 .work-item-project.challenge-1-refactor {
@@ -194,7 +190,7 @@ footer a {
   padding-left: 0px;
   padding-bottom: 15px;
   text-align: left;
-  border: .25vw solid var(--grey);
+  box-shadow: 0px 0px 5px 0px #888888;
 }
 
 .work-item-project.group-project1 {
@@ -207,7 +203,7 @@ footer a {
   padding-left: 0px;
   padding-bottom: 15px;
   text-align: left;
-  border: .25vw solid var(--grey);
+  box-shadow: 0px 0px 5px 0px #888888;
 }
 
 .work-item-project.group-project-2 {
@@ -220,7 +216,7 @@ footer a {
   padding-left: 0px;
   padding-bottom: 15px;
   text-align: left;
-  border: .25vw solid var(--grey);
+  box-shadow: 0px 0px 5px 0px #888888;
 }
 
 .work-item-project.TBD-3 {
@@ -233,7 +229,7 @@ footer a {
   padding-left: 0px;
   padding-bottom: 15px;
   text-align: left;
-  border: .25vw solid var(--grey);
+  box-shadow: 0px 0px 5px 0px #888888;
 }
 
 .work-item-project.TBD-4 {
@@ -246,7 +242,7 @@ footer a {
   padding-left: 0px;
   padding-bottom: 15px;
   text-align: left;
-  border: .25vw solid var(--grey);
+  box-shadow: 0px 0px 5px 0px #888888;
 }
 
 .work-item-project.TBD-5 {
@@ -259,7 +255,7 @@ footer a {
   padding-left: 0px;
   padding-bottom: 15px;
   text-align: left;
-  border: .25vw solid var(--grey);
+  box-shadow: 0px 0px 5px 0px #888888;
 }
 
 /* span */
@@ -379,8 +375,7 @@ footer a {
     text-align: center;
     padding-right: 0px;
     padding-bottom: 0px;
-    border-right: none;
-    border-bottom: 2px solid var(--grey);
+    box-shadow: 0px 0px 5px 0px #888888;
   }
 
   .about-me-item.p1 {
@@ -513,8 +508,7 @@ footer a {
     padding-top: 0px;
     padding-right: 0px;
     padding-bottom: 0px;
-    border-bottom: 2px solid var(--grey);
-    border-right: none;
+    box-shadow: 0px 0px 5px 0px #888888;
     align-self: start;
   }
 
